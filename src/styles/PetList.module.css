@@ -1,0 +1,41 @@
+.containerBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+ display: flex;
+ margin: 1rem;
+ flex-direction: column;
+ border: 10px solid whitesmoke;
+ background-color: whitesmoke;
+ cursor: pointer;
+ box-shadow: 3px 3px 3px gray;
+ border-radius: 10px;
+ color: rgb(40, 40, 40);
+}
+
+.container:hover{
+  transform: scale(1.05);
+}
+
+.container >img {
+  width: 300px;
+  
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.age {
+  font-size: 1.5rem;
+  font-weight: 400;
+}

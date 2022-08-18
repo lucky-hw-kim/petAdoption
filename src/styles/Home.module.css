@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.welcome {
+  align-self: center;
+  font-weight: 600;
+  font-size: 3.2rem;
+  color: rgb(36, 105, 82);
+  margin: 2rem 0;
+  margin-top: 100px;
+
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search {
+  border: none;
+  border-radius: 0.3rem;
+  height: 6vh;
+  width: 67%;
+  padding: 1rem;
+  border: 2px solid white;
+  margin-bottom: 1rem;
+
+}
+
+.search:hover {
+  border: 2px solid rgb(137, 54, 173);
+}
+
+.btn {
+  border: none;
+  background-color: rgb(137, 54, 173);
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  width: 47px;
+  height: 47px;
+  margin-left: -3rem;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: rgb(137, 54, 173);
+  background-color: white;
+  border: 2px solid rgb(137, 54, 173);
+}
+
+.filter {
+  align-self: center;
+  border: none;
+  border-radius: 0.5rem;
+  color: rgb(74, 74, 74);
+  font-weight: 500;
+  padding: 1rem;
+  height: 3vh;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  margin: 2rem;
+  justify-content: center;
+  height: fit-content;
+  max-width: 80vw;
+}
+
+
+.filterBy {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.filterSearch {
+  border: none;
+  background-color: white;
+  color: rgb(137, 54, 173);
+  font-size: 1.3rem;
+  padding: 0.7rem;
+  box-shadow: 3px 3px 2px rgb(190, 190, 190);
+  border-radius: 5px;
+  width: 32.5%;
+  font-weight: 600;
+  border: 3px solid white;
+}
+
+.filterSearch:hover{
+  cursor: pointer;
+  border: 3px solid rgb(137, 54, 173);
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.size,.gender,.color,.species {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 1.3rem;
+  text-align: center;
+  align-self: center;
+}
+
+.select {
+  border: none;
+  width: 32vw;
+  height: 3.4rem;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 3px 3px 2px rgb(209, 209, 209);
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.select:hover{
+  border: 2px solid rgb(137, 54, 173);
+}
+
+.applyFilterBtn{
+  margin-top: 1rem;
+  border: none;
+  background-color: rgb(137, 54, 173);
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  max-width: 70vw;
+  cursor: pointer;
+  font-weight: 600;
+  width: 85%;
+  box-shadow: 3px 3px 2px rgb(209, 209, 209);
+  border: 2px solid rgb(137, 54, 173);
+}
+
+.applyFilterBtn:hover {
+  box-shadow: 3px 3px 2px rgb(209, 209, 209);
+  color: rgb(137, 54, 173);
+  background-color: white;
+}
+
+
